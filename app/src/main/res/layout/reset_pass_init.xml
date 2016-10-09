@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_gravity="center"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="160dp"
+        android:maxHeight="160dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency_icon"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <EditText
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:hint="Email"
+    android:id="@+id/email"
+    android:layout_gravity="center"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+        android:textSize="20dp"/>
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/resbtn"
+    android:layout_marginTop="15dp"
+    android:textAlignment="center"
+    android:text="Continue"
+    android:background="#df0101"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginLeft="55dp"
+    android:layout_marginRight="55dp"/>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="40dp"
+    android:id="@+id/cancelbtn"
+    android:textAlignment="center"
+    android:text="Cancel"
+    android:background="#df0101"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_marginLeft="55dp"
+    android:layout_marginRight="55dp"/>
+
+</LinearLayout>

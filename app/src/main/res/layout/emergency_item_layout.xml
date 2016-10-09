@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Heart Attack"
+        android:textColor="#000000"
+        android:textStyle=""
+        android:textSize="23dp"
+        android:id="@+id/emergency_title"
+        android:layout_alignParentLeft="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/emergency_title"
+        android:id = "@+id/emergency_date"
+        android:textSize="15dp"
+        android:textColor="#6e6e6e"
+        android:textStyle="italic" />
+
+</RelativeLayout>

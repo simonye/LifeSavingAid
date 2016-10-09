@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:id = "@+id/userprofile_buttonBack"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Name:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/userprofile_name"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+
+            </LinearLayout>
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Birth Date:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id = "@+id/userprofile_birthDate"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Height (cm):"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id = "@+id/userprofile_height"
+                    android:textSize="30dp"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Weight (kg):"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/userprofile_weight"
+                    android:textSize="30dp"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Blood Type:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id = "@+id/userprofile_bloodtype"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Phone Number:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:inputType="phone"
+                    android:id="@+id/userprofile_phone"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Location:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/userprofile_location"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="Health History:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id = "@+id/userprofile_health"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+            <!--code for next section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff0000"
+                    android:text="SOS Message:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000000"
+                    android:id = "@+id/userprofile_sos"
+                    android:textSize="30dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ff0000" />
+            </LinearLayout>
+            <!-- end-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
